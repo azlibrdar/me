@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #000000;
+}
+
+.header {
+  height: 56px;
+  background: rgba(0, 0, 0, 0.79);
+  border-bottom: 1px solid #333333;
+  backdrop-filter: blur(148px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.text-container {
+  padding: 36px 16px;
+  background-color: #0a0a0a;
+}
+
+.text-container .text-content {
+  color: #ffffff;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.gradient-text-effect {
+  font-weight: 500;
+  background: linear-gradient(90.16deg, #00aeef 33.2%, #f9ed32 67.95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p-info-container {
+  padding: 12px 16px;
+}
+
+.p-info-placeholder {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 140%;
+  letter-spacing: 2px;
+  color: #6f6f6f;
+}
+
+.p-info-main {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.p-info-main-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 1px solid #333;
+}
+
+.p-info-main-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.p-info-details {
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.p-info-details-box {
+  padding: 8px 16px;
+  width: 90vw;
+  height: 56px;
+  background-color: #1b1b1b;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.p-info-details-box-label {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  color: #cccccc;
+  user-select: none;
+}
+
+.p-info-details-box-data {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #2697ff;
+  text-decoration: none;
+}
